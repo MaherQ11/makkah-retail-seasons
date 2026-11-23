@@ -1,0 +1,9 @@
+issue,action,rows_affected
+"Value, count and two % change measures stored in one column",Kept value and count as separate columns; dropped % changes (recomputable),15602.0
+"City rows, sector rows and national totals mixed in one table",Split into national / by-city / by-sector tables; parts add up to the total (difference < 0.001%),
+Week dated Saturday 2020-06-20 (all other weeks start on Sunday),Moved to Sunday 2020-06-21; all gaps are now exactly 7 days,28.0
+Values in thousands of SAR / thousands of transactions,Converted to SAR millions / millions of transactions,
+Weeks before 2020-06-21 affected by COVID-19 curfews,"Flagged with covid_period=True (kept, excluded later)",6.0
+Same week published in two overlapping PDF reports,"Checked the figures match, kept one copy",61.0
+City breakdown changed from 11 cities + 'Other' (CSV) to ~60 cities (PDF),"Combined both, but use only Makkah across the two formats; checked its level is consistent at the join",
+Weeks missing between Jul 2025 and Nov 2026 (reports not archived online),Listed in coverage table; not filled in,47.0
